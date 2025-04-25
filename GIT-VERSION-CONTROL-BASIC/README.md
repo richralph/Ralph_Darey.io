@@ -12,5 +12,4 @@ This project demonstrates the practical use of a Version Control System (VCS) in
 
 # Project Setup
 
-[New Repository](./img/01.%20create%20repo.png)
-
+![new repository](./img/01.create-repo.png)
