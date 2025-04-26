@@ -13,3 +13,18 @@ This project demonstrates the practical use of a Version Control System (VCS) in
 # Project Setup
 
 ![new repository](./img/01.create-repo.png)
+- Clone repository locally
+
+![clone commad](./img/02.clone.png)
+
+- Add index.html file
+
+![index.html](./img/nano.png)
+![hmtl](./img/html.png)
+
+![web browser](./img/web-brower.png)
+
+
+
+
+
