@@ -11,6 +11,7 @@ This project demonstrates the practical use of a Version Control System (VCS) in
 👀 **Jirosecurities:** Reviewer (Code Reviewer)
 
 # Project Setup
+- Raphael create a repository
 
 ![new repository](./img/01.create-repo.png)
 - Clone repository locally
@@ -24,6 +25,17 @@ This project demonstrates the practical use of a Version Control System (VCS) in
 
 ![web browser](./img/web-brower.png)
 
+- Stage, Commit and Push changes:
+
+git add .
+
+git commit -m "Added initial commit of the AI Website"
+
+git push
+
+# ✅ Step 2: Add Collaborators
+
+- Add a collaborator from settings
 
 
 
