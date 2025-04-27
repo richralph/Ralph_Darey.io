@@ -35,3 +35,22 @@ Visit the [official Git website](https://git-scm.com/) and [download](https://gi
 
 ![mkdir](./img/7.mkdir.png)
 
+- Clone (download) the repository using:
+
+git clone https://github.com/Oluwaseunoa/DevOps-Projects.git
+
+- Since you just clonned your repository your branch is **'Main'.**
+
+- Navigate to the repository you clonned
+
+cd /Documents/Workstaion/Ralph_Darey.io/Ralph_Darey.io/03.Basic-Git-Command
+
+![](./img/9.created-repo.png)
+
+- Create a file named index.html and add the content below:
+
+touch index.html
+echo "This is the Admin creating an index.html file for Tom and Jerry." >> index.html
+![](./img/10.touch-html.png)
+
+
