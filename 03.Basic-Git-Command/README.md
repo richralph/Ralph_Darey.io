@@ -30,27 +30,101 @@ Visit the [official Git website](https://git-scm.com/) and [download](https://gi
 - Open your terminal or command prompt.
 
 - Create a folder named DevOps-Projects in your desired directory (e.g., Documents/Workspace/DevOps-Projects) and navigate to it:
-
-![alt text](image.png)
-
+```bash
+mkdir ~/Documents/Workspace/DevOps-Projects
+cd ~/Documents/Workspace/DevOps-Projects
+```
 ![mkdir](./img/7.mkdir.png)
 
 - Clone (download) the repository using:
 
+```bash
 git clone https://github.com/Oluwaseunoa/DevOps-Projects.git
-
+```
 - Since you just clonned your repository your branch is **'Main'.**
 
 - Navigate to the repository you clonned
 
+```bash 
 cd /Documents/Workstaion/Ralph_Darey.io/Ralph_Darey.io/03.Basic-Git-Command
-
+```
 ![](./img/9.created-repo.png)
 
 - Create a file named index.html and add the content below:
 
+```bash
 touch index.html
 echo "This is the Admin creating an index.html file for Tom and Jerry." >> index.html
+```
 ![](./img/10.touch-html.png)
 
+- Check that changes haven't been staged:
 
+```bash 
+git status
+```
+
+- Stage the changes:
+
+```bash
+git add index.html
+```
+
+- Confirm staging:
+
+```bash
+git status
+```
+
+✅ The file name will appear in green, indicating it is staged.
+
+- Commit the changes:
+ ```bash
+ git commit -m "This is my first commit"
+ ```
+
+ - Push the main branch to GitHub:
+ ```bash
+ git push origin main
+ ```
+
+ # This sends commits from your main branch on your laptop to GitHub (Remote Repository).
+
+ ## 👥 Part 2: Simulating Tom and Jerry's Work
+
+ #### We'll simulate both Tom and Jerry working on the same machine by using branches.
+
+# 🧑 Tom’s Work
+
+- Navigate to the project directory:
+
+```bash
+cd DevOps-Projects\03. Mini Project - Basic Git Commands
+```
+- Check the current branch:
+```bash
+git branch
+```
+
+- Create a new branch for Tom's changes:
+```bash
+git checkout -b update-navigation
+```
+![add new branch](./img/11.new-branch.png)
+
+- Check the branch again to see your new;y created branch.
+```bash
+git branch
+```
+![](./img/12.update-branch.png)
+
+- Modify index.html and add:
+using the code echo command
+
+```bash
+echo "This is Tom adding Navigation to the 03,Basic-Git_Command." >> index.html
+```
+
+This simulates Tom's contribution to the project. This text represents the work he's doing on the navigation bar. In the real world, this will be an actual software code.
+
+- Check for unstaged changes:
