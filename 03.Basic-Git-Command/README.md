@@ -2,7 +2,7 @@
 
 ## 1. Install Git
 
-Visit the [official Git website](https://git-scm.com/) and [download](https://git-scm.com/downloads) the version of Git for your operating system.
+Visit the [official Git website](https://git-scm.com/) and [download](https://git-scm.com/downloads/win) the version of Git for your operating system.
 
 ![git website](./img/1.git-websit.png)
 
@@ -31,22 +31,23 @@ Visit the [official Git website](https://git-scm.com/) and [download](https://gi
 
 - Create a folder named DevOps-Projects in your desired directory (e.g., Documents/Workspace/DevOps-Projects) and navigate to it:
 ```bash
-mkdir ~/Documents/Workspace/DevOps-Projects
-cd ~/Documents/Workspace/DevOps-Projects
+mkdir ~/Documents/Workspace/Ralph_Darey.io
+
+cd ~/Documents/Workspace/Ralph_Darey.io
 ```
 ![mkdir](./img/7.mkdir.png)
 
 - Clone (download) the repository using:
 
 ```bash
-git clone https://github.com/Oluwaseunoa/DevOps-Projects.git
+git clone https://github.com/richralph/Ralph_Darey.io.git
 ```
 - Since you just clonned your repository your branch is **'Main'.**
 
 - Navigate to the repository you clonned
 
 ```bash 
-cd /Documents/Workstaion/Ralph_Darey.io/Ralph_Darey.io/03.Basic-Git-Command
+cd /Documents/Workstaion/Ralph_Darey.io/03.Basic-Git-Command
 ```
 ![](./img/9.created-repo.png)
 
