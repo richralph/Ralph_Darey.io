@@ -129,3 +129,71 @@ echo "This is Tom adding Navigation to the 03,Basic-Git_Command." >> index.html
 This simulates Tom's contribution to the project. This text represents the work he's doing on the navigation bar. In the real world, this will be an actual software code.
 
 - Check for unstaged changes:
+```bash
+git status
+```
+
+- Stage the changes
+```bash
+git add index.html
+```
+
+- Confirm staging:
+```bash
+git status
+```
+
+- Commit Tom’s changes:
+```bash
+git commit -m "Update navigation bar"
+```
+- Push Tom’s branch:
+```bash
+git push origin update-navigation
+```
+
+# 🧑 Jerry’s Work
+
+- Switch back to the main branch:
+```bash
+git checkout main
+```
+
+- Pull latest changes (e.g., Tom’s update):
+```bash
+git pull origin update-navigation
+```
+
+- Create a new branch for Jerry's work:
+```bash
+git checkout -b add-contact-info
+```
+
+- Edit index.html and add the following content:
+```bash
+Contact us at: contact@ai-startup.com
+```
+
+- Stage Jerry's changes:
+```bash
+git add index.html
+```
+
+- Commit Jerry’s changes:
+```bash
+git commit -m "Add contact information"
+```
+- Push Jerry's branch:
+```bash
+git push origin add-contact-info
+```
+
+# ✅ Summary
+
+At this point:
+
+- Tom created a branch update-navigation and added navigation details.
+
+- Jerry created a branch add-contact-info and added contact information.
+
+- Both contributors successfully pushed their branches to GitHub.
